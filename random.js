@@ -19,7 +19,7 @@
                     "top": rTop,
                     "left": rLeft,
                     "color": "rgba(0,0,0,." + Math.random() + ")",
-                    "fontSize": rSize + "px"
+                    "fontSize": rSize + "px",
                 }).appendTo("body").fadeIn("slow", function () {
                     $(this).fadeOut("slow", function () {
                         $(this).remove();
@@ -29,7 +29,7 @@
             run = 1;
         } else {
            heading.html(heading.html().replace("哪个人？", "这个人！"));
-            $(this).val("不行，换一个");
+            $(this).val("换一个");
             clearInterval(timer);
             run = 0;
         };
