@@ -7,6 +7,6 @@
             }
         })
         $('#stop').click(function(){
-            alert('这么作？今天别吃了！')
+            alert('别换了，就他了！')
             $(this).hide();
         })
